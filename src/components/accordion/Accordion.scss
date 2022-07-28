@@ -1,0 +1,16 @@
+.accordion {
+  margin-bottom: 15px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+
+    span {
+      font-size: 20px;
+      line-height: 37px;
+    }
+  }
+}

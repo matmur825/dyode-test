@@ -1,0 +1,34 @@
+.homepage--collections {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0 15px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .item {
+    margin-bottom: 15.3px;
+
+    width: 48.5%;
+    height: 216px;
+
+    &:last-child {
+      max-width: unset;
+      width: 100%;
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    max-width: 1440px;
+    
+    .item, .item:last-child {
+      max-width: 435px;
+      width: 32%;
+      height: 569px;
+    }
+  }
+}

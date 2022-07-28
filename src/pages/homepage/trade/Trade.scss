@@ -1,0 +1,52 @@
+.homepage--trade {
+  margin: 0 auto;
+  position: relative;
+
+  img {
+    object-fit: cover;
+    min-height: 227px;
+  }
+
+  .content-wrapper {
+    position: absolute;
+    top: 27%;
+    right: 8.5%;
+
+    color: white;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      line-height: 37px;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 18px;
+
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    .content-wrapper {
+      top: 29%;
+      right: 7.5%;
+    
+      h2 {
+        font-size: 50px;
+        line-height: 93px;
+      }
+
+      p {
+        margin-bottom: 44.5px;
+
+        font-size: 40px;
+        line-height: 48px;
+      }
+    }
+  }
+}

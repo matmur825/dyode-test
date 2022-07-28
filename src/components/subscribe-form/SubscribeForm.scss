@@ -1,0 +1,12 @@
+.subscribe-form {
+  width: 100%;
+
+  display: flex;
+
+  input {
+    flex-grow: 1;
+    margin-right: 9px;
+    text-indent: 11px;
+    outline: none;
+  }
+}

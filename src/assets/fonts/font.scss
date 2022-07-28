@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url('Pacifico.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('Lato-Medium.ttf') format('truetype');
+}
+
+.pacifico {
+  font-family: 'Pacifico';
+}
+
+.lato {
+  font-family: 'Lato';
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}

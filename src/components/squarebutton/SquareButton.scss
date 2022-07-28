@@ -1,0 +1,34 @@
+.btn {
+  box-sizing: border-box;
+  color: white;
+  background-color: #10504F;
+  font-weight: 24px;
+
+  padding: 8px 10px;
+  font-size: 8px;
+  line-height: 10px;
+
+  cursor: pointer;
+
+  &#{&}--black {
+    background-color: black;
+  }
+
+  &#{&}--border-white {
+    border: 1px solid white;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media (min-width: 768px) {
+    padding: 14px 20px;
+    font-size: 20px;
+    line-height: 24px;
+
+    &#{&}--border-white {
+      border: 4px solid white;
+    }
+  }
+}

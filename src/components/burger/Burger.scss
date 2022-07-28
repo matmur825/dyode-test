@@ -1,0 +1,14 @@
+.burger-btn {
+  display: block;
+}
+
+.burger__slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 40px;
+  padding-right: 50px;
+}

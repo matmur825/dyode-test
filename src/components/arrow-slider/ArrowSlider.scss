@@ -1,0 +1,27 @@
+.arrow-slider {
+
+  margin: 0 5px;
+  padding: 0 17px;
+
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
+
+  .slick-prev, .slick-next {
+    font-size: 20px;
+    color: #10504F;
+  }
+
+  @media (min-width: 768px) {
+    margin: 0;
+    padding: 0 95px;
+
+    .slick-prev {
+      left: -95px;
+    }
+  
+    .slick-next {
+      right: -95px;
+    }
+  }
+}
